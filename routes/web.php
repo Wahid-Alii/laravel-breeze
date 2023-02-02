@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome' , ['name' => 'Wahid Ali']);
-// });
+Route::get('/admin', function () {
+    return view('welcome');
+});
 
 Route::get('/', function () {
     return view('dashboard');
